@@ -38,5 +38,8 @@ thirty. To represent this number I used a long integer array of size eleven.
 
 
 
-To run the code, run the commands on terminal: gcc ECDH2102.c -o ECDH && ./ECDH
+To run the code, run the commands on terminal: 
+'''
+gcc ECDH2102.c -o ECDH && ./ECDH
+'''
 
