@@ -27,4 +27,16 @@ the same, which is the final key obtained from the ECDH algorithm.
 
 
 
-To run the code, run the commands on terminal: gcc ECDH2102.c ./a.out
+In my implementation, I used the following notational convention :
+
+• Every field element is 330 bits binary string out of which 329 bits
+correspond to the value and the leftmost bit of the string stands for the sign
+bit. I represent a 330 bits long binary string in a number of base two power
+thirty. To represent this number I used a long integer array of size eleven.
+
+• Used G, a, b, p, n are same as given in the P-256 curve.
+
+
+
+To run the code, run the commands on terminal: gcc ECDH2102.c -o ECDH && ./ECDH
+
